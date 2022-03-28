@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>LOOPS</h1>
+    <p> Loops can execute block of code  a number of times loops are handle if we want to run same code again and again each time which diffrent value us loops</p>
+
+    <ul>
+        <li>FOR LOOPS</li>
+        <li>WHILE LOOPS</li>
+        <li>DO WHILE LOOPS</li>
+    </ul>
+
+    <h3> for loop</h3>
+    <pre>
+        for(var i=0;i<=10;i++){
+            console.log(i)
+        }</pre>
+
+    <h3> for loop two type forword loop  and backword loop</h3>
+    <h3>forword loop</h3>
+    <pre>
+        for(var i=1;i<=10;i++){
+            console.log(2+"X"+i+"="+2*i)
+        }
+        }</pre>
+
+
+        <h3>BACKWORD LOOP</h3>
+        <pre>
+            for(var i=0;i<=10;--){
+                console.log(i)
+            }</pre>
+
+
+            <h2>while loop</h2>
+            <p> when you dont know  extaly  how many number of timethe loop is going to be executed then will do use while loop</p>
+
+            <pre> 
+                var i=1;
+                while(i<10){
+                    console.log(i);
+                    i++
+                } </pre>
+
+
+                <h2> another example</h2>
+                <pre>
+                    var num=12;
+var lastdigit=0;
+var sumofalldigit=0;
+while(num!=0){
+    var lastdigit=num%10;
+    sumofalldigit=sumofalldigit+lastdigit;
+    num=(parseInt(num/10));
+    
+}
+console.log(sumofalldigit);
+                </pre>
+
+
+                <h1> DO WHILE LOOP</h1>
+                <p> your code get executed atleast once wether condition true or false</p>
+
+                <pre>
+                    var i=1;
+do{
+    console.log(i);
+    i++
+}
+while(i<10)
+                </pre>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
